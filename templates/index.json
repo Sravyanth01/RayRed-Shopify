@@ -1,0 +1,329 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_video_zhiqzq": {
+      "type": "custom-video",
+      "name": "Custom Video",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/6f8fb62145d14eeda4af6bb9a6510cae.mp4"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.banner__content {padding: 3rem; align-items: flex-end; } .banner__content .button {position: relative; font-size: 12px; min-height: auto; padding: 7px 0px; border: 2px solid transparent; }}",
+        ".button {background-color: #111 !important; color: #fff !important; padding: 16px 28px; border-radius: 8px; font-size: 1.1rem; text-transform: uppercase; transition: all 0.3s ease;}",
+        ".button:hover {background-color: #e60023 !important; /* Red accent */ transform: scale(1.05);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/02_a2cf7eb9-ddf0-4463-8f55-d4fe0fc422ca.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection_WEVqdf": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "T-SHIRTS",
+      "settings": {
+        "collection": "t-shirts",
+        "products_to_show": 5,
+        "title": "T-SHIRTS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_VYzKbL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Nxnm3M": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "grey-wash-serpent"
+          }
+        },
+        "featured_collection_ihjEcB": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "t-shirts"
+          }
+        },
+        "featured_collection_rcWtyz": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "pants"
+          }
+        },
+        "featured_collection_PDeWL6": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Nxnm3M",
+        "featured_collection_ihjEcB",
+        "featured_collection_rcWtyz",
+        "featured_collection_PDeWL6"
+      ],
+      "custom_css": [
+        ".card__content {position: absolute; bottom: 0; height: 90px; text-align: center; background: linear-gradient(0deg, black, transparent); align-items: end;}",
+        ".card__heading {background: linear-gradient(45deg, white 45%, #c1272d 52%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 500; font-size: 18px;}",
+        ".card__heading .icon-wrap {display: none;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "collage_9tnxW4": {
+      "type": "collage",
+      "blocks": {
+        "image_EgJ7DC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wefcws.webp"
+          }
+        },
+        "image_fPPrJV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ecwedas.webp"
+          }
+        },
+        "image_3GyLAW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/erwfcwdas.webp"
+          }
+        },
+        "image_EU9gTH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ubhu_b.webp"
+          }
+        },
+        "image_jLgbJa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3ercdasz.webp"
+          }
+        },
+        "image_kwDyn8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_EgJ7DC",
+        "image_fPPrJV",
+        "image_3GyLAW",
+        "image_EU9gTH",
+        "image_jLgbJa",
+        "image_kwDyn8"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "<strong>Multimedia collage</strong>",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "t-shirts",
+        "products_to_show": 5,
+        "title": "<strong>New</strong> <strong>Arrivals</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_erKTMf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_dapPni": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/20241217_082720589_iOS_2800x1000_crop_center_8f13ce77-5944-4fe1-8161-16d8b92e9ecc.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_rMqTBd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/20241217_082711559_iOS_2800x1000_crop_center_d29d7efe-48e4-4e90-8188-3f83b15be598.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_CznJQU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/20241202_065302717_iOS_2800x1000_crop_center_fa011f0c-1713-4e9d-a23c-7f7215014e42.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dapPni",
+        "slide_rMqTBd",
+        "slide_CznJQU"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection_HNmEHR": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Hoodies",
+      "settings": {
+        "collection": "grey-wash-serpent",
+        "products_to_show": 5,
+        "title": "HOODIES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "custom_video_zhiqzq",
+    "image_banner",
+    "featured_collection_WEVqdf",
+    "collection_list_VYzKbL",
+    "collage_9tnxW4",
+    "featured_collection",
+    "slideshow_erKTMf",
+    "featured_collection_HNmEHR"
+  ]
+}

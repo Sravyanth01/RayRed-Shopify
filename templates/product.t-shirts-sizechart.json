@@ -1,0 +1,183 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_jBDTgE": {
+      "type": "Breadcrumbs",
+      "custom_css": [
+        "@media (min-width: 750px) {.breadcrumbs {margin-top: 15px; }}",
+        "@media (max-width: 750px) {.breadcrumbs {margin-top: 15px; font-size: 6px; padding: 6px 2px 0px 16px; } .breadcrumbs a {font-size: 10px; }}",
+        ".breadcrumbs a {text-transform: capitalize;}"
+      ],
+      "name": "Breadcrumb Navigation",
+      "settings": {
+        "breadcrumbs_home_icon_bool": false,
+        "breadcrumb_delimeter": "angle_right",
+        "breadcrumb_bg_color": "rgba(0,0,0,0)",
+        "breadcrumb_text_color": "#ffffff",
+        "breadcrumb_accent_color_bool": true,
+        "breadcrumb_accent_color": "#ed1111",
+        "enable_product_page": false,
+        "enable_collection_page": false,
+        "enable_complete_site": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "popup_VBpRA3": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "size-chart"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "popup_VBpRA3",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "custom_css": [
+        "@media (max-width: 750px) {.product__title h1 {font-size: 20px; }}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_rby6Tx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hipjRk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Details",
+            "icon": "clipboard",
+            "row_content": "<ul><li>100% cotton</li><li>240 GSM</li><li>Oversized fit</li><li>Hand-style embroidery</li><li>Soft & breathable</li><li>Reverse wash only<br/></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m7f6tR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "row_content": "<ul><li>Packed within 24 hours</li><li>Dispatched next day</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hipjRk",
+        "collapsible_row_m7f6tR"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_jBDTgE",
+    "main",
+    "collapsible_content_rby6Tx",
+    "related-products"
+  ]
+}

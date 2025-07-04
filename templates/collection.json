@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "breadcrumbs_Fpqm78": {
+      "type": "Breadcrumbs",
+      "custom_css": [
+        "@media (min-width: 750px) {.breadcrumbs {margin-top: 15px; }}",
+        "@media (max-width: 750px) {.breadcrumbs {margin-top: 15px; font-size: 6px; padding: 6px 2px 0px 16px; } .breadcrumbs a {font-size: 10px; }}",
+        ".breadcrumbs a {text-transform: capitalize;}"
+      ],
+      "name": "Breadcrumb Navigation",
+      "settings": {
+        "breadcrumbs_home_icon_bool": false,
+        "breadcrumb_delimeter": "angle_right",
+        "breadcrumb_bg_color": "rgba(0,0,0,0)",
+        "breadcrumb_text_color": "#ffffff",
+        "breadcrumb_accent_color_bool": true,
+        "breadcrumb_accent_color": "#ffffff",
+        "enable_product_page": true,
+        "enable_collection_page": true,
+        "enable_complete_site": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".select__select option {color: indianred;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "breadcrumbs_Fpqm78",
+    "product-grid"
+  ]
+}

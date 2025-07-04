@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_xzhxCt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo.png",
+            "image_width": 160,
+            "alignment": "center"
+          }
+        },
+        "link_list_CVVfP7": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "polices"
+          }
+        },
+        "link_list_yXD3Jx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "image_xzhxCt",
+        "link_list_CVVfP7",
+        "link_list_yXD3Jx"
+      ],
+      "custom_css": [
+        ".list-menu__item--link {padding-bottom: 0px; padding-top: 0px;}",
+        "@media (max-width: 950px) {.link, a {font-size: 10px; }}",
+        ".footer-block__heading {margin-bottom: 10px;}",
+        ".footer-block__details-content {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "enter your email",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
